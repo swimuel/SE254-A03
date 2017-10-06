@@ -52,15 +52,18 @@ Lease Right have also given you the following requirements for the system’s us
 
 _“The lease management program should have an easy-to-use graphical user interface (GUI), which
 should work similar to this: the main screen should let the user choose between general activities:
-managing leases, managing equipment, managing customers and managing employees. Choosing
-managing lease opens a new screen, which shows a list of all the recent leases and lets you add,
+managing leases, managing equipment, managing customers and managing employees. 
+
+Choosing managing lease opens a new screen, which shows a list of all the recent leases and lets you add,
 update, delete and search for a lease. The user can also go back to the main screen. The function for
 adding a lease opens a screen where the user can set all relevant information for the new lease (e.g.
 customer, equipment, ...). The user can confirm the new lease or cancel, and both lead back to the lease
-management screen with an appropriate message. Lease can be deleted by choosing them in the list
-and invoking the delete function, which asks for confirmation before deleting. The search function for
-lease also opens a new window which lets the user enter a time period (i.e. a start and end date) and
-other known details (e.g. customer, equipment, type, ... ) about the lease that the user is looking.
+management screen with an appropriate message. 
+
+Lease can be deleted by choosing them in the list and invoking the delete function, which asks for confirmation before 
+deleting. The search function forlease also opens a new window which lets the user enter a time period (i.e. a start 
+and end date) and other known details (e.g. customer, equipment, type, ... ) about the lease that the user is looking.
+
 When the search is started, the found lease are shown in the list of the lease management screen.
 Analogous to the screen for managing leases, there is a GUI for managing equipment, customers and
 employees. When modifying a record, the old values are shown. The system refuses to accept a record
