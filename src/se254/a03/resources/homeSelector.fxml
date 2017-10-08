@@ -30,22 +30,22 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="leases" mnemonicParsing="false" onAction="#changeScreenLeases" prefHeight="75.0" prefWidth="150.0" text="Leases" GridPane.halignment="CENTER">
+            <Button fx:id="leases" mnemonicParsing="false" onAction="#changeScreenOther" prefHeight="75.0" prefWidth="150.0" text="Leases" GridPane.halignment="CENTER">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="equipment" depthTest="DISABLE" mnemonicParsing="false" prefHeight="75.0" prefWidth="150.0" text="Equipment" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+            <Button fx:id="equipment" depthTest="DISABLE" mnemonicParsing="false" onAction="#changeScreenEqt" prefHeight="75.0" prefWidth="150.0" text="Equipment" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="customers" mnemonicParsing="false" prefHeight="75.0" prefWidth="150.0" text="Customers" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Button fx:id="customers" mnemonicParsing="false" onAction="#changeScreenOther" prefHeight="75.0" prefWidth="150.0" text="Customers" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="employees" mnemonicParsing="false" prefHeight="75.0" prefWidth="150.0" text="Employees" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Button fx:id="employees" mnemonicParsing="false" onAction="#changeScreenOther" prefHeight="75.0" prefWidth="150.0" text="Employees" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                <font>
                   <Font size="18.0" />
                </font>
